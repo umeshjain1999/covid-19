@@ -1,0 +1,28 @@
+#root {
+  --bold: 600;
+  --normal: 400;
+  --primary-color: #ffffff;
+  --bg: #626c7f;
+  --text-color: #c3cad6;
+  --light-text-color: #9da6b5;
+  --dark-text-color: #424752;
+  --success: #2f6136;
+  --danger: #db4b4b;
+  --box-shadow: 20px 20px 40px #535c6c, -20px -20px 40px #717c92;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+  color: var(--dark-text-color);
+}
