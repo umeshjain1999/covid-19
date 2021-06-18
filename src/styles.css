@@ -2,13 +2,13 @@
   --bold: 600;
   --normal: 400;
   --primary-color: #ffffff;
-  --bg: #626c7f;
-  --text-color: #c3cad6;
-  --light-text-color: #9da6b5;
-  --dark-text-color: #424752;
-  --success: #2f6136;
-  --danger: #db4b4b;
-  --box-shadow: 20px 20px 40px #535c6c, -20px -20px 40px #717c92;
+  --text-color: #6b6867;
+  --light-text-color: #999493;
+  --dark-text-color: #474443;
+  --success: #3c7d45;
+  --danger: #de2f2f;
+  --bg: #ddd7d5;
+  --box-shadow: 20px 20px 60px #bcb7b5, -20px -20px 60px #fef7f5;
 }
 
 body {
