@@ -52,7 +52,7 @@
 }
 
 .info .card-container h1 {
-  font-size: 17rem;
+  font-size: 15rem;
   position: absolute;
   margin: 0;
   top: 0%;
@@ -65,7 +65,6 @@
 .info .card-container .card {
   position: relative;
   z-index: 1;
-  width: 340px;
   height: 400px;
   display: flex;
   justify-content: flex-start;
@@ -92,6 +91,10 @@
   align-items: center;
   gap: 1rem;
   padding: 0.3rem;
+}
+
+.card-container .card .card-text span:first-child {
+  text-align: left;
 }
 
 .card-container .card .fade {
@@ -175,15 +178,18 @@
 
 @media (max-width: 1300px) {
   .info .card-container h1 {
-    font-size: 11rem;
+    font-size: 9rem;
     top: 15%;
     left: 3%;
   }
 }
 @media (max-width: 850px) {
   .info .card-container h1 {
-    font-size: 5.3rem;
-    top: 18%;
+    font-size: 3.9rem;
+    top: 9%;
     left: 3%;
+  }
+  .info .card-container .card {
+    font-size: 1rem;
   }
 }
